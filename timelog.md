@@ -1,9 +1,9 @@
 # Timelog
 
-* PROJECT NAME
-* YOUR NAME
-* STUDENT_ID
-* SUPERVISOR NAME
+* Interactive Refrigerator Magnets – Electronics Prototyping and Interaction Design (ID: 8809)
+* Joe Kadi
+* 2261087k
+* Dr Julie Williamson
 
 ## Guidance
 
@@ -14,13 +14,14 @@
 
 ## Week 1
 
-### 19 Oct 2019
+### 23 Sept 2019
 
-* *4 hours* Read the project guidance notes
-* *0.5 hour* Created GitLab repository and cloned the cookiecutter for the projects
-* *1 hour* Modified dissertation template, compiled  
+* *1 hour* Collected appropiate literature written on domestic IoT devices
+* *0.5 hour* Brainstormed functionality ideas for magnet and recorded on notes
 
-## 20 Oct 2019
+### 24 Sept 2019
 
-* *1 hour* meeting with supervisor
-* *2 hours* writing initial version of test harness
+* *0.5 hour* Created GitLab repo and initalised all appropiate files
+* *0.5 hour* Initalised trello and assigned tasks with upcoming meeting in mind
+
+

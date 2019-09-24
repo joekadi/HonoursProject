@@ -1,15 +1,18 @@
 # Plan
 
-* PROJECT TITLE
-* YOUR NAME
-* STUDENT ID
-* SUPERVISOR NAME
+* Interactive Refrigerator Magnets – Electronics Prototyping and Interaction Design (ID: 8809)
+* Joe Kadi
+* 2261087k
+* Dr Julie Williamson
 
 Week-by-week plan for the whole project. Update this as you go along.
 
 ## Winter semester
 
 * **Week 1**
+- Collect and read appropiate literature
+- Initalise repo and appropiate files
+- Have a clear idea of project
 * **Week 2**
 * **Week 3**
 * **Week 4**
