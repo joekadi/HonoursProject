@@ -22,6 +22,7 @@
 ### 24 Sept 2019
 
 * *0.5 hour* Created GitLab repo and initalised all appropiate files
-* *0.5 hour* Initalised trello and assigned tasks with upcoming meeting in mind
+* *0.5 hour* Initalised trello and assigned week 1 tasks with upcoming meeting in mind
+* *1.5 hour* Began creating mind-map with design/research ideas and presentation for Thurs meeting
 
 
