@@ -14,14 +14,28 @@ Week-by-week plan for the whole project. Update this as you go along.
 - Initalise repo and appropiate files
 - Have a clear idea of project
 * **Week 2**
+- Continue literature review (domestic ethnographic studies, domestic IoT devices, smart fridges)
+- Come up with questions for pilot interview and questionnaires
+- Run interviews, issue questionnaires
 * **Week 3**
+- Analyse results and determine behaviour within kitchen, stresses and desires  
+- Come up with product ideas that satisfy above critera
+- Determine technological feasibility of products
+- Select product(s) for proper prototyping
 * **Week 4**
+- Begin developing a protoype of the product(s)
 * **Week 5**
+- Fill in once development begun
 * **Week 6**
+- Fill in once development begun
 * **Week 7**
+- Fill in once development begun
 * **Week 8**
+- Fill in once development begun
 * **Week 9**
+- Fill in once development begun
 * **Week 10**
+- Fill in once development begun
 * **Week 11 [PROJECT WEEK]**
 * **Week 12 [PROJECT WEEK]** Status report submitted.
 

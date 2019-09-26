@@ -25,4 +25,12 @@
 * *0.5 hour* Initalised trello and assigned week 1 tasks with upcoming meeting in mind
 * *1.5 hour* Began creating mind-map with design/research ideas and presentation for Thurs meeting
 
+### 25 Sept 2019
 
+* *2 hour* Completed mind map and wireframes for current ideas
+* *2 hour* Developed all ideas and visuals into presentation for tomorrow's meeting.
+
+### 26 Sept 2019
+* *2 hour* Reviewing literature and tailoring presentation
+* *0.5 hour* Meeting with Julie
+* *0.5 hour* Creating project plan and collecting appropiate tools
