@@ -44,3 +44,7 @@
 ### 29 Sept 2019
 
 * *2 hours* Writing down inital questions for the pilot questionnaires/interviews
+
+### 30 Sept 2019
+
+* *1 hour* Reviewing literature and adjusting questionnaire accordingly
