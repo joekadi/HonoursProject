@@ -15,17 +15,16 @@ Week-by-week plan for the whole project. Update this as you go along.
 - Have a clear idea of project
 * **Week 2**
 - Continue literature review (domestic ethnographic studies, domestic IoT devices, smart fridges)
+* **Week 3**
 - Come up with questions for pilot interview and questionnaires
 - Run interviews, issue questionnaires
-* **Week 3**
+* **Week 4**
 - Analyse results and determine behaviour within kitchen, stresses and desires  
 - Come up with product ideas that satisfy above critera
 - Determine technological feasibility of products
 - Select product(s) for proper prototyping
-* **Week 4**
-- Begin developing a protoype of the product(s)
 * **Week 5**
-- Fill in once development begun
+- Begin developing a protoype of the product(s)
 * **Week 6**
 - Fill in once development begun
 * **Week 7**

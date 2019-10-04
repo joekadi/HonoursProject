@@ -1,4 +1,5 @@
 
+
 # Timelog
 
 * Interactive Refrigerator Magnets – Electronics Prototyping and Interaction Design (ID: 8809)
@@ -48,3 +49,16 @@
 ### 30 Sept 2019
 
 * *1 hour* Reviewing literature and adjusting questionnaire accordingly
+
+### 1 Oct 2019
+
+* *3 hours* Making notes on collected literature using Zotero
+
+### 2 Oct 2019
+
+* *4 hours* Writing 1500 words of intial literature review and referencing.
+
+### 3 Oct 2019
+
+* *1 hour* Creating presentation and preparing questions for meeting
+* *0.5 hour* Meeting with Julie
