@@ -62,3 +62,17 @@
 
 * *1 hour* Creating presentation and preparing questions for meeting
 * *0.5 hour* Meeting with Julie
+
+### 7 Oct 2019
+
+* *1 hours* Researching interface designs
+* *2 hours* Drawing my intial interface ideas
+
+### 8 Oct 2019
+
+* *3 hours* Beginning to create intial wireframes on Adobe XD
+
+### 9 Oct 2019
+
+* *2 hours* Finalising wireframes on XD
+* *1 hours* Creating powerpoint for tomorrow's meeting with questions.
