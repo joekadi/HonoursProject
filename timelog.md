@@ -76,3 +76,26 @@
 
 * *2 hours* Finalising wireframes on XD
 * *1 hours* Creating powerpoint for tomorrow's meeting with questions.
+
+### 10 Oct 2019
+
+* *0.5 hours* Meeting with Julie
+* *1 hour* Planning next steps
+
+### 11 Oct 2019
+
+* *3 hours* Planning intial interview protocol
+
+### 12 Oct 2019
+
+* *1 hour* Reading about interview protocols
+* *1 hour* Editing interview protocol
+* *1 hour* Begin developing protoype for pilot interviews
+
+### 13 Oct 2019
+
+* *3 hour* Continuing to work on protoype for interviews
+
+### 14 Oct 2019
+
+* *1 hour* Continuing to work on protoype for interviews
