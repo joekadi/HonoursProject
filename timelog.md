@@ -99,3 +99,15 @@
 ### 14 Oct 2019
 
 * *1 hour* Continuing to work on protoype for interviews
+
+### 15 Oct 2019
+
+* *2.5 hour* Cotinuing to develop protoype (recipe screens added)
+
+### 16 Oct 2019
+
+* *3 hours* Made protoype fit to iPhone screen and cleaned up interactions
+
+### 17 Oct 2019
+
+* *0.5 hour* Prepared presentation for meeting with Julie today
