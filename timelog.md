@@ -111,3 +111,17 @@
 ### 17 Oct 2019
 
 * *0.5 hour* Prepared presentation for meeting with Julie today
+* *0.5 hour* Meeting with Julie
+
+### 20 Oct 2019
+
+* *1 hour* Preparing interview protocol for tomorrow
+
+### 21 Oct 2019
+
+* *2 hour* Carrying out 4 interviews
+
+### 23 Oct 2019
+
+* *1 hour* Synthesised interview result document based on notes 
+
