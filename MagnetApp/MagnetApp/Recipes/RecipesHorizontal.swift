@@ -1,0 +1,50 @@
+//
+//  RecipeRow.swift
+//  MagnetApp
+//
+//  Created by Joe Kadi on 20/11/2019.
+//  Copyright © 2019 Joe Kadi. All rights reserved.
+//
+
+import SwiftUI
+
+struct RecipesHorizontal: View {
+    
+    var recipes:[Recipe]
+    
+    var body: some View {
+        
+        NavigationView{
+            
+        
+            ScrollView(.horizontal, showsIndicators: false){
+                HStack() {
+                    ForEach(self.recipes, id: \.id){ recipe in
+                        
+                        NavigationLink(destination: RecipeDetail(recipe: recipe)){
+                            RecipeItem(recipe: recipe)
+                            .frame(width: 340)
+                                
+                            
+                                
+                                
+                        }
+                        
+                        
+                    }
+                }
+                }
+            
+        .navigationBarTitle("Recipes")
+            
+        }
+        
+       
+    }
+}
+
+struct RecipesHorizontal_Previews: PreviewProvider {
+    static var previews: some View {
+        RecipesVertical(recipes: recipes)
+    }
+}
