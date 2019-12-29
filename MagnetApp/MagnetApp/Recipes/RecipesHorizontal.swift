@@ -14,7 +14,7 @@ struct RecipesHorizontal: View {
     
     var body: some View {
         
-        NavigationView{
+   
             
         
             ScrollView(.horizontal, showsIndicators: false){
@@ -24,9 +24,7 @@ struct RecipesHorizontal: View {
                         NavigationLink(destination: RecipeDetail(recipe: recipe)){
                             RecipeItem(recipe: recipe)
                             .frame(width: 340)
-                                
-                            
-                                
+
                                 
                         }
                         
@@ -37,7 +35,7 @@ struct RecipesHorizontal: View {
             
         .navigationBarTitle("Recipes")
             
-        }
+        
         
        
     }

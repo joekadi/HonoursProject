@@ -27,7 +27,6 @@ struct DateTracking: View {
         NavigationView{
          
             ZStack{
-                
             
                 VStack{
                     
@@ -41,11 +40,9 @@ struct DateTracking: View {
                                         $0.imageName.localizedCaseInsensitiveContains(self.searchTerm)
                                 }, columns: 3) { item in
                                     
-                                    
-                                    Button(action: {
-                                        self.filterRecipesBy = item.imageName
-                                        self.recipesShown.toggle()
-                                    }){
+                                    NavigationLink(destination: RecipesVertical(recipes: self.recipes.filter(({
+                                        $0.ingredients.contains(item.imageName)
+                                    }))) ){
                                         ListItem(imageName: item.imageName, daysLeft: item.daysLeft, redBackground: item.redBackground )
                                     }
                                     
@@ -61,7 +58,12 @@ struct DateTracking: View {
                                         $0.imageName.localizedCaseInsensitiveContains(self.searchTerm)
                                 }, columns: 3) { item in
                                           
-                                    ListItem(imageName: item.imageName, daysLeft: item.daysLeft, redBackground: item.redBackground )
+                                    
+                                    NavigationLink(destination: RecipesVertical(recipes: self.recipes.filter(({
+                                        $0.ingredients.contains(item.imageName)
+                                    })))){
+                                        ListItem(imageName: item.imageName, daysLeft: item.daysLeft, redBackground: item.redBackground )
+                                     }
                                     
                                 }
                             //.background(Color(red: 239 / 255, green: 239 / 255, blue: 239 / 255))
@@ -99,10 +101,10 @@ struct DateTracking: View {
                     
                 }
                 
-                if (self.recipesShown == true){
+               /* if (self.recipesShown == true){
                     VStack(alignment: .center, spacing: 15) {
                         
-                        HStack {
+                    HStack {
                             Button(action: {self.recipesShown.toggle()
                             }){
                                 Image("cross")
@@ -111,13 +113,14 @@ struct DateTracking: View {
                                 .foregroundColor(Color.red)
                             }
                             .offset(x: -70, y: 11)
-                            Text("Recipes You Can Cook")
+                            Text("Recipes using")
                                 .font(.headline)
                                 .fontWeight(.bold)
                                 .padding(.top)
                                 .offset(x: -50, y: 5)
                         }
                      
+                        
                          
                         RecipesVertical(recipes: self.recipes.filter(({
                             self.filterRecipesBy.isEmpty ? true :
@@ -126,10 +129,12 @@ struct DateTracking: View {
                             .padding(.leading)
                             .offset(x: 0, y: 140)
                     }
-                    .frame(width:375, height:310, alignment: .center)
-                    .background(Color.white)
+                   // .frame(width:375, height:310, alignment: .center)
+                   // .background(Color.white)
                     
                 }
+ 
+                        */
                 
                /* if(buttonShown == true){
                     Button(action: {self.recipesShown = true

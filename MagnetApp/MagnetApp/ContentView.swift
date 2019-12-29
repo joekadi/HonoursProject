@@ -21,16 +21,31 @@ struct ContentView: View {
             DateTracking().tabItem({
                 Image(systemName: "calendar")
                     .font(.title)
-                Text("Date Tracking")
+                //Text("Date Tracking")
                 }).tag(0)
             
             RecipesVertical(recipes: recipes).tabItem({
                 Image(systemName: "book.fill")
                     .font(.title)
-                Text("Recipes")
+                //Text("Recipes")
                 }).tag(1)
+            
+            DashboardScreen().tabItem({
+                Image(systemName: "bell.fill")
+                .font(.title)
+                //Text("Alerts")
+                
+                }).tag(2)
+            
+            StatsScreen().tabItem({
+                Image(systemName: "person.fill")
+                    .font(.title)
+                //Text("Joe")
+                }).tag(3)
+            
+            
         }
-        
+        .accentColor(.purple)
         
         
     }

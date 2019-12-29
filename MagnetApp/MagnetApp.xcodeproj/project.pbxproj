@@ -24,8 +24,15 @@
 		D95880BC238468CD001B020A /* RecipeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95880BB238468CD001B020A /* RecipeItem.swift */; };
 		D9633AC423887D5D004583D8 /* DateTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9633AC323887D5D004583D8 /* DateTracking.swift */; };
 		D9633AC823888EC5004583D8 /* RecipesHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9633AC723888EC5004583D8 /* RecipesHorizontal.swift */; };
+		D994DE7623B64ED9005C6EA4 /* TipItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994DE7523B64ED9005C6EA4 /* TipItem.swift */; };
+		D994DE7823B6618C005C6EA4 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994DE7723B6618C005C6EA4 /* DashboardScreen.swift */; };
+		D994DE7A23B66A7C005C6EA4 /* GoalsModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994DE7923B66A7C005C6EA4 /* GoalsModal.swift */; };
+		D994DE7C23B66E75005C6EA4 /* Accolades.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994DE7B23B66E75005C6EA4 /* Accolades.swift */; };
+		D994DE7E23B67069005C6EA4 /* AccoladeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994DE7D23B67069005C6EA4 /* AccoladeView.swift */; };
 		D9A5B35E2385E00700EE5E3E /* Cross.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A5B35D2385E00700EE5E3E /* Cross.swift */; };
 		D9D6B16C23869D4E00B20E63 /* RecipeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D6B16B23869D4E00B20E63 /* RecipeDetail.swift */; };
+		D9D7C0C623B4D247008B4857 /* StatsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7C0C523B4D247008B4857 /* StatsScreen.swift */; };
+		D9D7C0C923B4DF87008B4857 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = D9D7C0C823B4DF87008B4857 /* SwiftUICharts */; };
 		D9F34CC22385CDF80019C346 /* RecipesVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F34CC12385CDF80019C346 /* RecipesVertical.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,8 +76,14 @@
 		D95880BB238468CD001B020A /* RecipeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeItem.swift; sourceTree = "<group>"; };
 		D9633AC323887D5D004583D8 /* DateTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTracking.swift; sourceTree = "<group>"; };
 		D9633AC723888EC5004583D8 /* RecipesHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesHorizontal.swift; sourceTree = "<group>"; };
+		D994DE7523B64ED9005C6EA4 /* TipItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipItem.swift; sourceTree = "<group>"; };
+		D994DE7723B6618C005C6EA4 /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
+		D994DE7923B66A7C005C6EA4 /* GoalsModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsModal.swift; sourceTree = "<group>"; };
+		D994DE7B23B66E75005C6EA4 /* Accolades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accolades.swift; sourceTree = "<group>"; };
+		D994DE7D23B67069005C6EA4 /* AccoladeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccoladeView.swift; sourceTree = "<group>"; };
 		D9A5B35D2385E00700EE5E3E /* Cross.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cross.swift; sourceTree = "<group>"; };
 		D9D6B16B23869D4E00B20E63 /* RecipeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetail.swift; sourceTree = "<group>"; };
+		D9D7C0C523B4D247008B4857 /* StatsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsScreen.swift; sourceTree = "<group>"; };
 		D9F34CC12385CDF80019C346 /* RecipesVertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesVertical.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +93,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9353A80237EB3310095D141 /* QGrid in Frameworks */,
+				D9D7C0C923B4DF87008B4857 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +142,12 @@
 				D9353A47237EA85C0095D141 /* ContentView.swift */,
 				D9633AC523887F7A004583D8 /* Recipes */,
 				D9633AC623887F9B004583D8 /* Date Tracking */,
+				D9D7C0C523B4D247008B4857 /* StatsScreen.swift */,
+				D994DE7723B6618C005C6EA4 /* DashboardScreen.swift */,
+				D994DE7923B66A7C005C6EA4 /* GoalsModal.swift */,
+				D994DE7D23B67069005C6EA4 /* AccoladeView.swift */,
+				D994DE7B23B66E75005C6EA4 /* Accolades.swift */,
+				D994DE7523B64ED9005C6EA4 /* TipItem.swift */,
 				D9353A49237EA85E0095D141 /* Assets.xcassets */,
 				D9353A4E237EA85E0095D141 /* LaunchScreen.storyboard */,
 				D9353A51237EA85E0095D141 /* Info.plist */,
@@ -205,6 +225,7 @@
 			name = MagnetApp;
 			packageProductDependencies = (
 				D9353A7F237EB3310095D141 /* QGrid */,
+				D9D7C0C823B4DF87008B4857 /* SwiftUICharts */,
 			);
 			productName = MagnetApp;
 			productReference = D9353A3D237EA85C0095D141 /* MagnetApp.app */;
@@ -280,6 +301,7 @@
 			mainGroup = D9353A34237EA85C0095D141;
 			packageReferences = (
 				D9353A7E237EB3310095D141 /* XCRemoteSwiftPackageReference "QGrid" */,
+				D9D7C0C723B4DF87008B4857 /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = D9353A3E237EA85C0095D141 /* Products */;
 			projectDirPath = "";
@@ -324,12 +346,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D994DE7E23B67069005C6EA4 /* AccoladeView.swift in Sources */,
 				D932FECE2380666A004A6BDF /* SearchBar.swift in Sources */,
+				D994DE7823B6618C005C6EA4 /* DashboardScreen.swift in Sources */,
 				D9D6B16C23869D4E00B20E63 /* RecipeDetail.swift in Sources */,
 				D9353A74237EA8FA0095D141 /* ListItem.swift in Sources */,
 				D9633AC823888EC5004583D8 /* RecipesHorizontal.swift in Sources */,
+				D994DE7623B64ED9005C6EA4 /* TipItem.swift in Sources */,
+				D994DE7A23B66A7C005C6EA4 /* GoalsModal.swift in Sources */,
 				D9353A46237EA85C0095D141 /* MagnetApp.xcdatamodeld in Sources */,
 				D9633AC423887D5D004583D8 /* DateTracking.swift in Sources */,
+				D9D7C0C623B4D247008B4857 /* StatsScreen.swift in Sources */,
 				D9F34CC22385CDF80019C346 /* RecipesVertical.swift in Sources */,
 				D9353A41237EA85C0095D141 /* AppDelegate.swift in Sources */,
 				D9353A48237EA85C0095D141 /* ContentView.swift in Sources */,
@@ -338,6 +365,7 @@
 				D9353A82237EB6110095D141 /* Item.swift in Sources */,
 				D95880BC238468CD001B020A /* RecipeItem.swift in Sources */,
 				D9353A43237EA85C0095D141 /* SceneDelegate.swift in Sources */,
+				D994DE7C23B66E75005C6EA4 /* Accolades.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,6 +700,14 @@
 				version = 0.1.3;
 			};
 		};
+		D9D7C0C723B4DF87008B4857 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -679,6 +715,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D9353A7E237EB3310095D141 /* XCRemoteSwiftPackageReference "QGrid" */;
 			productName = QGrid;
+		};
+		D9D7C0C823B4DF87008B4857 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9D7C0C723B4DF87008B4857 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
 		};
 /* End XCSwiftPackageProductDependency section */
 

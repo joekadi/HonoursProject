@@ -17,7 +17,7 @@ struct RecipesVertical: View {
         NavigationView{
             
         
-            ScrollView(showsIndicators: false){
+            ScrollView( showsIndicators: false){
                 VStack() {
                     ForEach(self.recipes, id: \.id){ recipe in
                         
