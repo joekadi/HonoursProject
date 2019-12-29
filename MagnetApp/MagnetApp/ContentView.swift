@@ -24,7 +24,7 @@ struct ContentView: View {
                 //Text("Date Tracking")
                 }).tag(0)
             
-            RecipesVertical(recipes: recipes).tabItem({
+            RecipesVertical(recipes: recipes, food: "").tabItem({
                 Image(systemName: "book.fill")
                     .font(.title)
                 //Text("Recipes")

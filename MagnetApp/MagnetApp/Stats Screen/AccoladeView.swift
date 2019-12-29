@@ -20,7 +20,7 @@ struct AccoladeView: View {
                .resizable()
                .frame(width: 50, height: 50)
                .foregroundColor(.purple)
-                .opacity(shown ? 1 : 0.1)
+                .opacity(shown ? 1 : 0.2)
             
                
             Text(self.number)
@@ -28,7 +28,7 @@ struct AccoladeView: View {
                 .fontWeight(.heavy)
                 .offset(y: -5)
                 .foregroundColor(.purple)
-                .opacity(shown ? 1 : 0.1)
+                .opacity(shown ? 1 : 0.2)
         }
         
     }

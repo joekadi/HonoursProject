@@ -42,7 +42,7 @@ struct DateTracking: View {
                                     
                                     NavigationLink(destination: RecipesVertical(recipes: self.recipes.filter(({
                                         $0.ingredients.contains(item.imageName)
-                                    }))) ){
+                                    })), food: item.imageName) ){
                                         ListItem(imageName: item.imageName, daysLeft: item.daysLeft, redBackground: item.redBackground )
                                     }
                                     
@@ -61,7 +61,7 @@ struct DateTracking: View {
                                     
                                     NavigationLink(destination: RecipesVertical(recipes: self.recipes.filter(({
                                         $0.ingredients.contains(item.imageName)
-                                    })))){
+                                    })), food: item.imageName)){
                                         ListItem(imageName: item.imageName, daysLeft: item.daysLeft, redBackground: item.redBackground )
                                      }
                                     
