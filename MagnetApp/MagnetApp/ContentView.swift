@@ -16,7 +16,6 @@ struct ContentView: View {
     @State private var selected: Int = 0
     
     var body: some View {
-        
         TabView(selection: $selected) {
             DateTracking().tabItem({
                 Image(systemName: "calendar")
@@ -24,7 +23,7 @@ struct ContentView: View {
                 //Text("Date Tracking")
                 }).tag(0)
             
-            RecipesVertical(recipes: recipes, food: "").tabItem({
+            RecipesVertical(recipes: recipes, food: "", offset: 0.0).tabItem({
                 Image(systemName: "book.fill")
                     .font(.title)
                 //Text("Recipes")
@@ -44,10 +43,10 @@ struct ContentView: View {
                 }).tag(3)
             
             
-        }
+        
         .accentColor(.purple)
         
-        
+        }
     }
     
 }

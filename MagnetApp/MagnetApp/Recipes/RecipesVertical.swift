@@ -12,10 +12,11 @@ struct RecipesVertical: View {
     
     var recipes:[Recipe]
     var food: String
-    
+    var offset: CGFloat
+    @State private var showModal = false
     var body: some View {
         
-     
+        NavigationView{
             ScrollView( showsIndicators: false){
                 VStack(alignment: .leading) {
                     VStack(alignment: .leading){
@@ -37,24 +38,48 @@ struct RecipesVertical: View {
                                 .fontWeight(.bold)
                         }
                     }
+                    .padding([.top], 20.0)
+                    .padding(.leading, 20.0)
                     
                     
-                    VStack(alignment: .center){
+                   // VStack(alignment: .center){
+                        
                         ForEach(self.recipes, id: \.id){ recipe in
+                         
                             
-                            NavigationLink(destination: RecipeDetail(recipe: recipe)){
+                           /* Button(action: {
+                                self.showModal = true
+                            }) {
+                               VStack{
                                 RecipeItem(recipe: recipe)
-                                .frame(width: 340)
-
+                                   .frame(width: 340)
+                                   Divider()
+                                }
+                               .padding(10)
+                            }.sheet(isPresented: self.$showModal) {
+                                RecipeDetail(recipe: recipe)
                             }
+                            */
                             
+                             NavigationLink(destination: RecipeDetail(recipe: recipe)){
+                                VStack{
+                                    RecipeItem(recipe: recipe)
+                                    .frame(width: 340)
+                                    Divider()
+                                }
+                                
+                            }
+                            .padding(10.0)
                             
                         }
-                    }
+                   // }
                     
+                }.offset(x: 0.0, y: self.offset)
                 }
-                }
-                        
+            
+        .navigationBarTitle("")
+        .navigationBarHidden(true)
+        }
         
         
        
@@ -63,6 +88,6 @@ struct RecipesVertical: View {
 
 struct RecipesVertical_Previews: PreviewProvider {
     static var previews: some View {
-        RecipesVertical(recipes: recipes, food: "")
+        RecipesVertical(recipes: recipes, food: "", offset: 0.0)
     }
 }

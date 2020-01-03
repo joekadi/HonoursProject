@@ -27,26 +27,19 @@ struct DateTracking: View {
         NavigationView{
          
             ZStack{
-            
                 VStack{
-                    
                     SearchBar(text: $searchTerm)
-                    
-                    
-                    
                     if(self.arraySelection == 0){
                         QGrid(sortedDays.filter {
                                     self.searchTerm.isEmpty ? true :
                                         $0.imageName.localizedCaseInsensitiveContains(self.searchTerm)
                                 }, columns: 3) { item in
                                     
-                                    NavigationLink(destination: RecipesVertical(recipes: self.recipes.filter(({
+                                    NavigationLink(destination: RecipesVertical2(recipes: self.recipes.filter(({
                                         $0.ingredients.contains(item.imageName)
-                                    })), food: item.imageName) ){
+                                    })), food: item.imageName, offset: -65.0) ){
                                         ListItem(imageName: item.imageName, daysLeft: item.daysLeft, redBackground: item.redBackground )
                                     }
-                                    
-                                    
 
                                 }
                                 //.background(Color(red: 239 / 255, green: 239 / 255, blue: 239 / 255))
@@ -59,9 +52,9 @@ struct DateTracking: View {
                                 }, columns: 3) { item in
                                           
                                     
-                                    NavigationLink(destination: RecipesVertical(recipes: self.recipes.filter(({
+                                    NavigationLink(destination: RecipesVertical2(recipes: self.recipes.filter(({
                                         $0.ingredients.contains(item.imageName)
-                                    })), food: item.imageName)){
+                                    })), food: item.imageName, offset: -65.0)){
                                         ListItem(imageName: item.imageName, daysLeft: item.daysLeft, redBackground: item.redBackground )
                                      }
                                     
